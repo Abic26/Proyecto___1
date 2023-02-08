@@ -12,6 +12,7 @@
 }
 #header img {
 width: 80px;
+position: relative;
 }
 #main .carousel-inner img {
 max-height: 70vh;
