@@ -1,23 +1,26 @@
 .text-platzi{
-    color: #97c93e !important;
+    color: #e209ac !important;
 }
 
 .btn-platzi{
-    background-color:#97c93e;
+    background-color:#da0b95;
     color: white;
 }
 
 .btn-platzi:hover{
-    background-color: #8f5a1fbd;
+    background-color: #990875;
 }
+
 #header img {
 width: 80px;
 position: relative;
+border-radius: 10%;
+
 }
 #main .carousel-inner img {
 max-height: 70vh;
 object-fit: cover;
-filter: grayscale(70%);
+filter: grayscale(10%);
 
 }
 
@@ -42,7 +45,7 @@ filter: grayscale(70%);
 }
 
 #place-time{
-background-color: #343a40;
+    background: linear-gradient(90deg,#e209ac,#e209acc4 25%,#1e5372);
 color: white;
 }
 
@@ -52,9 +55,20 @@ color: white;
 }
 
 #footer{
-    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+    background: linear-gradient(90deg,#e209ac,#e209acc4 25%,#1e5372);
 
 }
 #footer a{
     color: white;
+}
+#header{
+    background: linear-gradient(90deg,#e209ac,#e209acc4 25%,#1e5372)
+    
+}
+body{
+    position: relative;
+    background-image: url(imgs/gala.jpeg);
+    filter: grayscale(10%);
+    /*background-repeat: no-repeat;*/
+    
 }
