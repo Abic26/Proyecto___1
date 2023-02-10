@@ -68,7 +68,7 @@ color: white;
 body{
     position: relative;
     background-image: url(imgs/gala.jpeg);
-    filter: grayscale(10%);
+    
     /*background-repeat: no-repeat;*/
     
 }
