@@ -1,14 +1,18 @@
-.text-platzi{
+.text-BIS{
     color: #e209ac !important;
 }
 
-.btn-platzi{
+.btn-BIS{
     background-color:#da0b95;
     color: white;
 }
 
-.btn-platzi:hover{
+.btn-BIS:hover{
     background-color: #990875;
+}
+.wapp{
+    position: fixed;
+        
 }
 
 #header img {
@@ -44,12 +48,12 @@ filter: grayscale(10%);
 
 }
 
-#place-time{
+#Encuentras{
     background: linear-gradient(90deg,#e209ac,#e209acc4 25%,#1e5372);
 color: white;
 }
 
-#place-time img{
+#Encuentras img{
     max-width: 100%;
 
 }
@@ -71,5 +75,27 @@ body{
     
     /*background-repeat: no-repeat;*/
     
-}
+}.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    left:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+  .whatsapp-icon, .whatsapp:hover{
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);;
+
+  }
 
